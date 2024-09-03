@@ -6,7 +6,7 @@
 - Automating deployment of new applications based on predefined parameters (such as application detection rules, tags, and SLOs)
 - Bulk configuration deletion (such as deleting all configuration of a decomissioned application)
 - Migrating configuration between environments
-  - Used in Managed to SaaS Migrations
+  - Commonly used in Managed to SaaS Migrations
 
 ## Monaco requirements
 To use monaco you need to have a manifest file.
