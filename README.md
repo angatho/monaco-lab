@@ -68,7 +68,7 @@ environmentGroups:
           value: "<environment url, for example https://abc12345.dynatrace.com/>"
         auth:
           token:
-            name: "<API token environment variable, I will be using token as the name>"
+            name: "<API token environment variable, you can use the name token>"
 ```
 
 Once you have this manifest with your environment url and an API token handy you are ready to being working with monaco.
@@ -216,7 +216,7 @@ https://docs.dynatrace.com/docs/shortlink/configuration-as-code-installation#ins
               value: "<environment url, for example https://abc12345.dynatrace.com/>"
             auth:
               token:
-                name: "<API token environment variable, I will be using token as the name>"
+                name: "<API token environment variable>"
       ```
     </details>
 
@@ -285,7 +285,7 @@ https://docs.dynatrace.com/docs/shortlink/configuration-as-code-installation#ins
               value: "<environment url, for example https://abc12345.dynatrace.com/>"
             auth:
               token:
-                name: "<API token environment variable, I will be using token as the name>"
+                name: "<API token environment variable>"
       ```
     </details>
 
