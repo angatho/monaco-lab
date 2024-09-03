@@ -8,4 +8,4 @@ environmentGroups:
           value: "<environment url, for example https://abc12345.dynatrace.com/>"
         auth:
           token:
-            name: "<API token environment variable, I will be using token as the name>"
+            name: "<API token environment variable name>"
