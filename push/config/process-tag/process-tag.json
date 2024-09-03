@@ -1,0 +1,22 @@
+{
+        "name": "Process_test",
+        "rules": [
+            {
+                "attributeRule": {
+                    "conditions": [
+                        {
+                            "key": "PROCESS_GROUP_NAME",
+                            "operator": "EXISTS"
+                        }
+                    ],
+                    "entityType": "PROCESS_GROUP",
+                    "pgToHostPropagation": false,
+                    "pgToServicePropagation": false
+                },
+                "enabled": true,
+                "type": "ME",
+                "valueFormat": null,
+                "valueNormalization": "Leave text as-is"
+            }
+        ]
+    }

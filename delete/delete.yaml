@@ -1,0 +1,7 @@
+delete:
+- project: config.process-tag
+  type: builtin:tags.auto-tagging
+  id: process-tagging
+- project: config.slo
+  type: builtin:monitoring.slo
+  id: slo

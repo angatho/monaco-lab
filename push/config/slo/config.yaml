@@ -1,0 +1,10 @@
+configs:
+- id: slo
+  config:
+    name: "All services 95% target"
+    template: slo.json
+  type:
+    settings:
+      schema: builtin:monitoring.slo
+      scope: environment
+

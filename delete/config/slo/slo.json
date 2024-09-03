@@ -1,0 +1,16 @@
+{
+    "customDescription": null,
+    "enabled": true,
+    "errorBudgetBurnRate": {
+        "burnRateVisualizationEnabled": true,
+        "fastBurnThreshold": 10
+    },
+    "evaluationType": "AGGREGATE",
+    "evaluationWindow": "-1w",
+    "filter": "type(SERVICE)",
+    "metricExpression": "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())",
+    "metricName": "all_services_95__target",
+    "name": "All services 95% target",
+    "targetSuccess": 95,
+    "targetWarning": 97
+}

@@ -1,0 +1,9 @@
+configs:
+        - id: process-tagging
+          type:
+            settings:
+              schema: builtin:tags.auto-tagging
+              scope: environment
+          config:
+            template: "process-tag.json"
+            name: "process-tag"

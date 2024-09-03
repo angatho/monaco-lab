@@ -1,0 +1,4 @@
+delete:
+- project: config.slo
+  type: builtin:monitoring.slo
+  id: slo
