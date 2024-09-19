@@ -80,6 +80,8 @@ https://docs.dynatrace.com/docs/shortlink/configuration-as-code-installation#ins
 
 ## Downloading environment configuration
 
+> **Note:** The commands used in this lab are for linux, you can find the appropriate commands for windows on the monaco documentation and console help page
+
 1. Ensure you have your manifest file correctly configured, with an environment url and token environment variable
 1. Export the API token to the environment variable defined in your manifest ```export token=<API token>```
 1. Run the monaco download command, making sure to specify the manifest and the environment name ```monaco download --manifest manifest.yaml -e <environment name>```
